@@ -3,6 +3,6 @@ function multiply (a: number, b: number): number {
 }
 
 const a = 12;
-const b = 4;
+const b = 2;
 
 console.log(multiply(a,b));
