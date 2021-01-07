@@ -1,8 +1,11 @@
-function multiply (a: number, b: number): number {
- return a * b;
+interface A {
+    someProp: number;
 }
 
-const a = 12;
-const b = 2;
+interface B {
+    someProp: number;
 
-console.log(multiply(a,b));
+}
+
+let a: A = { someProp: 1 };
+let b: B = a;
