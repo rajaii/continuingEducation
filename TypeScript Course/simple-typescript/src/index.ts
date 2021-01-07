@@ -4,6 +4,7 @@ interface A {
 
 interface B {
     someProp: number;
+    anotherProp: number
 
 }
 
